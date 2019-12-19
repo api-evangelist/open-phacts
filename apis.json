@@ -1,0 +1,51 @@
+{
+    "name": "Open PHACTS",
+    "description": "<p><span>Build with the Open PHACTS Discovery Platform. The platform provides a convenient API to query across multiple pharmacology datasets.<\/span><\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/OPS_logo_300_dpi_no_OPS.jpg",
+    "tags": [
+        "chemistry",
+        "have api",
+        "healthcare",
+        "pharmacological",
+        "physicochemical"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/open-phacts\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Open PHACTS",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/OPS_logo_300_dpi_no_OPS.jpg",
+            "humanURL": "http:\/\/openphacts.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/open-phacts-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/open-phacts-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/beta.openphacts.org\/"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/dev.openphacts.org"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/openphacts.org"
+        }
+    ]
+}
